@@ -1,3 +1,4 @@
- wget https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdgcentos96-9.6-2.noarch.rpm 
- yum localinstall pgdg-centos96-9.6-2.noarch.rpm 
- yum install postgresql96-server postgresql96-contrib 
+rpm -ivh https://yum.postgresql.org/9.6/redhat/rhel-7.3-x86_64/pgdg-centos96-9.6-3.noarch.rpm
+
+yum install postgresql96 postgresql96-server postgresql96-libs postgresql96-contrib postgresql96-devel -y
+
